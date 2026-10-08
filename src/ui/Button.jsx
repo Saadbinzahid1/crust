@@ -14,7 +14,12 @@ function Button({ children, disabled, to, type }) {
       px-4 py-2.5 md:px-6 md:py-3.5`,
   };
 
-  if (to) return <Link className={styles[type]}>{children}</Link>;
+  if (to)
+    return (
+      <Link to={to} className={styles[type]}>
+        {children}
+      </Link>
+    );
 
   return (
     <button className={styles[type]} disabled={disabled}>
