@@ -5,7 +5,7 @@ function LinkButton({ children, to }) {
   const className =
     "text-sm text-(--primary-color) hover:text-[#038585] hover:underline";
 
-  if (to === -1)
+  if (to === -1 || to === "-1")
     return (
       <button className={className} onClick={() => navigate(-1)}>
         {children}
