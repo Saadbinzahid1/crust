@@ -4,6 +4,10 @@ A modern pizza ordering platform built with **React**. Crust provides a clean an
 
 > Built as a hands-on project to apply modern React development concepts in a realistic application.
 
+## 🌐 Live Preview
+
+[Live Demo](https://crust-react.netlify.app)
+
 ## ✨ Features
 
 - 🍕 Browse available pizzas
