@@ -23,7 +23,7 @@ A modern pizza ordering platform built with **React**. Crust provides a clean an
 - **React**
 - **JavaScript**
 - **HTML5**
-- **CSS3**
+- **Tailwind**
 - **Redux** for state management
 - **Vite** for development and build tooling
 
@@ -33,11 +33,14 @@ A modern pizza ordering platform built with **React**. Crust provides a clean an
 crust/
 ├── public/
 ├── src/
-│   ├── components/
 │   ├── features/
 │   ├── services/
 │   ├── ui/
-│   └── main.jsx
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── store.js
 ├── package.json
 └── README.md
 ```
